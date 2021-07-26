@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+}
+
+#container{
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+/*Parte do envio e propaganda do site*/
+#cabeca {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 250px;
+	padding: auto;
+	font-family: Arial;
+}
+@media (max-width:400px){
+	flex-wrap: wrap;
+	font-size: 30px;
+}
+
+#cabeca h1{
+	font-size: 50px;	
+}
+
+#cabeca h5 {
+	font-size: 10px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+#cabeca h6 {
+	justify-content: center;
+	font-size: 10px;
+	text-align: center ;
+ 	color: rgba(0, 0, 0, 1.0);
+}
+
+
+#cabeca button {
+	height: 80px;
+	border-radius: 20px;
+	background-color: black;
+	border: black;
+	color: red;
+	font-size: 30px;
+	
+}
+@media (max-width:400px){
+	flex-wrap: wrap;
+	height: 80px;
+	font-size: 20px;
+
+}
+
+
+/*Informações do funcionamento*/
+section.corpo {
+	width: 100vw;
+	text-align: center;
+	background-color: rgb(110, 110, 238);
+	font-family: cursive;
+	font-size: x-large;
+	
+}
+
+section.corpo li {
+	font-size: 25px;
+	margin-top: 150px;
+	padding: 10px;
+}
+
+#um {
+	text-align: justify;
+}
+#dois {
+	text-align: justify;
+}
+#tres {
+	text-align: justify;
+}
+
+ footer {
+ 	text-align: center;
+ 	font-size: 15px;
+ }
